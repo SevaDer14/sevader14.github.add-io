@@ -1,3 +1,75 @@
+body {
+    background: rgb(0, 0, 0);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+
+
 h1 {
-    color: #0066ff
+    text-align: left;
+    margin: 40pt;
+    margin-left: 0pt;  
+}
+
+img {
+    width: 70%;
+    height: auto;
+}
+
+p {
+    text-align: left;
+}
+
+.topinex {
+    display: inline;
+    width: 25%;
+    margin-left: 20pt;
+    margin-right: 20pt;
+}
+
+.publ {
+    text-align: left;
+    margin: 0 0 10pt;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 35%;
+    height: auto;
+    margin-top: 5pt;
+}
+
+h2 {
+    text-align: left;
+}
+
+
+.column {
+float: left;
+width: 50%;
+}
+
+.style1 {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.style_left {
+    text-align: left;
+}
+
+.style_center {
+    text-align: center;
 }
