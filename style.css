@@ -8,7 +8,10 @@ body {
     text-align: center;    
 }
 
-
+.bordered_logo {
+    border-radius: 50%; 
+    border:rgb(165, 165, 165) 3px solid  ;
+}
 
 h1 {
     text-align: left;
@@ -74,13 +77,13 @@ h2 {
 }
   
 .picture-column {
-    background-color: rgb(68, 55, 39);
+    background-color: rgb(16, 56, 25);
     height: 400px;
     padding: 24px;
 }
   
 .text-column {
-    background-color:  rgb(68, 55, 39);
+    background-color:  rgb(16, 56, 25);
     height: 400px;
     padding: 24px;
 }
