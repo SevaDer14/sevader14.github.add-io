@@ -1,12 +1,11 @@
 body {
     background: rgb(0, 0, 0);
-    width: 75%;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 
@@ -18,7 +17,7 @@ h1 {
 }
 
 img {
-    width: 70%;
+    width: 90%;
     height: auto;
 }
 
@@ -30,7 +29,7 @@ p {
     display: inline;
     width: 25%;
     margin-left: 20pt;
-    margin-right: 20pt;
+    margin-right: 20pt;    
 }
 
 .publ {
@@ -45,9 +44,9 @@ a {
 
 .avatar {
     border-radius: 50%;
-    width: 35%;
-    height: auto;
-    margin-top: 5pt;
+    height: 100%;
+    width: auto;
+    
 }
 
 h2 {
@@ -55,9 +54,35 @@ h2 {
 }
 
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column-text {
+    font-size: 21px;
+    line-height: 1.5;
+}
+
 .column {
-float: left;
-width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+  
+.picture-column {
+    background-color: rgb(68, 55, 39);
+    height: 400px;
+    padding: 24px;
+}
+  
+.text-column {
+    background-color:  rgb(68, 55, 39);
+    height: 400px;
+    padding: 24px;
 }
 
 .style1 {
