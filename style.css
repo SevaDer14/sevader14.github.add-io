@@ -8,6 +8,33 @@ body {
     text-align: center;    
 }
 
+nav {
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 70px;
+    padding-bottom: 18px;
+}
+
+nav a {
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: white;
+}
+
 .bordered_logo {
     border-radius: 50%; 
     border:rgb(165, 165, 165) 3px solid  ;
@@ -40,10 +67,7 @@ p {
     margin: 0 0 10pt;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
+
 
 .avatar {
     border-radius: 50%;
