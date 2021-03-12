@@ -113,6 +113,10 @@ h2 {
     padding: 24px;
 }
 
+footer {    
+    margin: 75px;
+}
+
 .style1 {
     border: 5px outset red;
     background-color: lightblue;
